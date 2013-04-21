@@ -15,10 +15,7 @@ OJ.extendClass(
 		
 		'_constructor' : function(route){
 			this._s('LuckyDuckDays', '_constructor', arguments);
-			this.slcEmailPhone.setItemRenderer(OjLabelItemRenderer);
-			this.slcEmailPhone.setSelectionRenderer(OjRadioOption);	
-			this.slcEmailPhone.setSelectionMin(1);					
-			this.slcEmailPhone.setOptions(['Email', 'Phone']);
+
 		},
 		
 		
