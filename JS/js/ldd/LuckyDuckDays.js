@@ -4,7 +4,10 @@ OJ.importJs('oj.form.TextInput');
 OJ.importJs('oj.form.Selector');
 OJ.importJs('oj.list.LabelItemRenderer');
 OJ.importJs('oj.form.RadioOption');
+OJ.importJs('ldd.DuckForm');
+
 OJ.importCss('ldd.LuckyDuckDays');
+
 
 'use strict';
 
@@ -17,7 +20,11 @@ OJ.extendClass(
 			this._s('LuckyDuckDays', '_constructor', arguments);
 
 		},
-		
+
+
+	    '_onAddDuck' : function(evt){
+			this.duckContainer.addChild(new LddDuckForm());
+	    },
 		
 		'_onRegister' : function(evt){
 			WindowManager.alert("registered!");
