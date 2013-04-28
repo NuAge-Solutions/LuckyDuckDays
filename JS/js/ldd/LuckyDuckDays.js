@@ -17,7 +17,7 @@ OJ.extendClass(
 		'_template' : 'ldd.LuckyDuckDays',
 		
 		'_constructor' : function(route){
-			this._s('LuckyDuckDays', '_constructor', arguments);
+			this._super('LuckyDuckDays', '_constructor', arguments);
 
 		},
 
