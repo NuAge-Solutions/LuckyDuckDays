@@ -132,7 +132,6 @@ OJ.extendClass(
 					/* show future contact view */
 				
 					this.lblEmail.setValue(this.lblEmailReq.getValue());
-					this.lblPhone.setValue(this.lblPhoneReq.getValue());
 					
 					/* add code here to show in a modal */
 					this.futureContactContainer.show();
