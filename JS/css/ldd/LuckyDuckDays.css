@@ -15,10 +15,6 @@
 }
 */
 
-.LuckyDuckDays .chooseContactMethod > .slcEmailPhone{
-	width:75px;
-}
-
 .errorText{
 	background-color:yellow;
 }
@@ -37,8 +33,12 @@
 	text-align:left;
 }
 
+.LddLuckyDuckDays .slcEmailPhone .OjOption{
+	display:inline-block;
+	margin: 0px 10px;
+}
 
-.LuckyDuckDays .slcEmailPhone .indicator{
+.LddLuckyDuckDays .slcEmailPhone .indicator{
 	overflow:visible;
 }
 
@@ -100,14 +100,14 @@
 
 /************ Mailing Address *****************/
 
-.LuckyDuckDays .lblAddrCity {
+.LddLuckyDuckDays .lblAddrCity {
 	width:50%;
 }
 
-.LuckyDuckDays .lblAddrState {
+.LddLuckyDuckDays .lblAddrState {
 	width:20%;
 }
 
-.LuckyDuckDays .lblAddrZip {
+.LddLuckyDuckDays .lblAddrZip {
 	width:20%;
 }
