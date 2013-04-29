@@ -1,9 +1,42 @@
-.LuckyDuckDays .lblName {
-	display: block;
-	font-size : 16px;
-	font-weight: bold;
-	margin:10px 0px 5px
+.LddLuckyDuckDays{
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
 }
+
+/*
+.chooseContactMethod{
+	display:table; 
+	width:100%;
+}
+
+.chooseContactMethod > *{
+	display:table-cell;
+	width:100%;
+}
+*/
+
+.LuckyDuckDays .chooseContactMethod > .slcEmailPhone{
+	width:75px;
+}
+
+.errorText{
+	background-color:yellow;
+}
+
+.imgDuck{
+	float:left;
+	margin:0px 5px;
+}
+
+.registeredDuckPanel{
+	width:100%;
+}
+
+
+.textChoose{
+	text-align:left;
+}
+
 
 .LuckyDuckDays .slcEmailPhone .indicator{
 	overflow:visible;
@@ -16,10 +49,65 @@
 	/*width: 85%; */
 	/*width: 240px;
   	height: 100%;*/
-	padding: 0px 0px 0px 5px;
-	margin: 5px 0px 2px 52px;
+	padding: 5px;
+	margin: 5px;
 	-moz-box-shadow: 1px 1px 2px #566F88;
 	-webkit-box-shadow: 1px 1px 2px #566F88;
 	box-shadow: 1px 1px 2px #566F88;
-	text-align:center;
+}
+
+.registeredPanel{
+	background-color: #c1d2e1;
+  	-moz-border-radius: 7px;
+  	-webkit-border-radius: 7px;
+	/*width: 85%; */
+	/*width: 240px;
+  	height: 100%;*/
+	padding: 5px;
+	margin: 5px;
+	-moz-box-shadow: 1px 1px 2px #566F88;
+	-webkit-box-shadow: 1px 1px 2px #566F88;
+	box-shadow: 1px 1px 2px #566F88;
+}
+
+.futureContactPanel{
+	background-color: #c1d2e1;
+  	-moz-border-radius: 7px;
+  	-webkit-border-radius: 7px;
+	/*width: 85%; */
+	/*width: 240px;
+  	height: 100%;*/
+	padding: 5px;
+	margin: 5px;
+	-moz-box-shadow: 1px 1px 2px #566F88;
+	-webkit-box-shadow: 1px 1px 2px #566F88;
+	box-shadow: 1px 1px 2px #566F88;
+}
+
+.mailingAddressPanel{
+	background-color: #c1d2e1;
+  	-moz-border-radius: 7px;
+  	-webkit-border-radius: 7px;
+	/*width: 85%; */
+	/*width: 240px;
+  	height: 100%;*/
+	padding: 5px;
+	margin: 5px;
+	-moz-box-shadow: 1px 1px 2px #566F88;
+	-webkit-box-shadow: 1px 1px 2px #566F88;
+	box-shadow: 1px 1px 2px #566F88;
+}
+
+/************ Mailing Address *****************/
+
+.LuckyDuckDays .lblAddrCity {
+	width:50%;
+}
+
+.LuckyDuckDays .lblAddrState {
+	width:20%;
+}
+
+.LuckyDuckDays .lblAddrZip {
+	width:20%;
 }

@@ -1,24 +1,41 @@
 <div>
+	<div var=registeredContainer class=registeredPanel>
+	</div>
 	<div class=contentPanel>
         <textinput label="Name:" var=lblName></textinput>
-        <selector label="Choose" var=slcEmailPhone on-change="_onSlcEmailPhone" selection-renderer="OjRadioOption">
-            <i>"Email"</i>
-            <i>"Phone"</i>
-        </selector>
-        <textinput label="Email Address:" var=lblEmailReq></textinput>
-        <textinput label="Phone Number:" var=lblPhoneReq class=hidden></textinput>
+		<p class=textChoose>If you are a winner, how would you like to be contacted?</p>
+		<div class=chooseContactMethod>
+			<selector var=slcEmailPhone on-change="_onSlcEmailPhone" selection-renderer="OjRadioOption">
+	            <i>"Email"</i>
+	            <i>"Phone"</i>
+	        </selector>
+			<div>
+	        	<textinput label="Email Address:" var=lblEmailReq></textinput>
+	        	<textinput label="Phone Number:" var=lblPhoneReq class=hidden></textinput>
+			</div>
+		</div>
+		<div var=duckContainer class=duckPanel>
+        	<duckform></duckform>
+    	</div>
+    	<button on-click="_onRegisterDuck">Register Duck</button>
+		(Afterwards you can register more ducks)
 	</div>
 
-    <textinput label="Mailing Address:" var=lblMailingAddress></textinput>
-    <textinput label="Email Address:" var=lblEmail class=hidden></textinput>
-    <textinput label="Phone Number:" var=lblPhone></textinput>
+<!--	<view var=futureContactPanel> 
+-->
+	<div var=futureContactContainer class=futureContactPanel> 
+		<p>Thank you for registering your duck!</p>
+		<checkbox var=slcContact on-change="_onSlcContact" is-selected="1">I would like to be contacted about future events</checkbox>
+		<div var=futureContactWrapper>
+	    	<textinput label="Email Address:" var=lblEmail></textinput>
+	    	<textinput label="Phone Number:" var=lblPhone></textinput>
+			<div var=mailingAddressContainer class=mailingAddressPanel>
+				<mailingaddressform></mailingaddressform>
+			</div>
+		</div>
+	</div>
+<!--	</view>
+-->
 
-    <div var=duckContainer>
-        <duckform></duckform>
-    </div>
-
-    <button on-click="_onAddDuck">+</button>
-
-	<button on-click="_onRegister">Register</button>
 	<button on-click="_onAdoptionPaper">Adoption Paper</button>	
 </div>
