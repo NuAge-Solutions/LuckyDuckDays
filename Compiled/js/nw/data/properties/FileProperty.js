@@ -1,0 +1,1 @@
+OJ.importJs("nw.data.properties.Property");"use strict";OJ.extendClass(NwProperty,"NwFileProperty",{});

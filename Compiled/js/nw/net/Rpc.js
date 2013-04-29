@@ -1,0 +1,1 @@
+OJ.importJs("oj.net.Rpc");"use strict";OJ.extendClass(OjRpc,"NwRpc",{_get_props_:{gateway:null},_constructor:function(a,c,b){this._super("NwRpc","_constructor",arguments);this._request.getData()["gateway"]=NW.getGateway()}});

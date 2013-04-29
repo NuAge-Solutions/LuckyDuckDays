@@ -1,0 +1,1 @@
+OJ.importJs("nw.analytics.AnalyticsData");"use strict";OJ.extendClass(NwAnalyticsData,"NwAnalyticsAction",{_props_:{},_constructor:function(){this._super("NwAnalyticsAction","_constructor",[])}});

@@ -1,0 +1,1 @@
+OJ.importJs("oj.nav.View");"use strict";OJ.extendClass(OjView,"NwView",{_constructor:function(){this._super("NwView","_constructor",[]);if(arguments.length){this.setData(arguments[0])}}});

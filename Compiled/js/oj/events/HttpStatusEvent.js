@@ -1,0 +1,1 @@
+OJ.importJs("oj.events.Event");"use strict";OJ.extendClass(OjEvent,"OjHttpStatusEvent",{_get_props_:{status:null},_constructor:function(c){var b=false,a=false,d=arguments.length;if(d>1){this._status=arguments[1];if(d>2){b=arguments[2];if(d>3){a=arguments[3]}}}this._super("OjHttpStatusEvent","_constructor",[c,b,a])}},{HTTP_STATUS:"onHttpStatus"});

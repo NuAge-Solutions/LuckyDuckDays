@@ -1,0 +1,1 @@
+OJ.importJs("nw.data.properties.TextProperty");"use strict";OJ.extendClass(NwTextProperty,"NwUrlProperty",{});

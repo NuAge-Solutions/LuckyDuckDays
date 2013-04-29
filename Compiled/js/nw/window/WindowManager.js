@@ -1,0 +1,1 @@
+OJ.importJs("oj.window.WindowManager");"use strict";OJ.extendManager("WindowManager",OjWindowManager,"NwWindowManager",{alert:function(c,b){var a=this._alert.apply(this,arguments);if(isUndefined(NW.alert(a))){this.show(a)}return a},browser:function(a,c){var b;if(isUndefined(b=NW.browser(a,c,true))){return this._super("NwWindowManager","browser",arguments)}return b}});

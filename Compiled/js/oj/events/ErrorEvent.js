@@ -1,0 +1,1 @@
+OJ.importJs("oj.events.TextEvent");"use strict";OJ.extendClass(OjTextEvent,"OjErrorEvent",{_get_props_:{errorId:0},_constructor:function(c){var e="",b=false,a=false,d=arguments.length;if(d>1){e=arguments[1];if(d>2){this._errorId=arguments[2];if(d>3){b=arguments[3];if(d>4){a=arguments[4]}}}}this._super("OjErrorEvent","_constructor",[c,e,b,a])}},{ERROR:"onError"});
