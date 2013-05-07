@@ -2,7 +2,7 @@ OJ.importJs('nw.app.App');
 OJ.importJs('oj.form.TextArea');
 OJ.importJs('oj.form.TextInput');
 OJ.importJs('oj.form.Selector');
-OJ.importJs('oj.list.LabelItemRenderer');
+OJ.importJs('oj.list.OjLabelItemRenderer');
 OJ.importJs('oj.form.RadioOption');
 OJ.importJs('oj.form.CheckedOption');
 OJ.importJs('ldd.DuckForm');
