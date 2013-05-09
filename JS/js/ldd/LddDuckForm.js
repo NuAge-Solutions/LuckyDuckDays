@@ -1,4 +1,4 @@
-OJ.importJs('oj.components.Component');
+OJ.importJs('oj.components.OjComponent');
 
 
 'use strict';
@@ -6,13 +6,14 @@ OJ.importJs('oj.components.Component');
 OJ.extendComponent(
 	OjComponent, 'LddDuckForm',
 	{
-		'_template' : 'ldd.DuckForm',
+		'_template' : 'ldd.LddDuckForm',
+
 		'validate' : function(){
 			/* add code to check the ID against valid ones in the DB */
 			return(this.lblDuckID.getValue().length==5);
 		},
 		
-		'getID' : function(){
+		'getSerial' : function(){
 			return this.lblDuckID.getValue();
 		},
 		
